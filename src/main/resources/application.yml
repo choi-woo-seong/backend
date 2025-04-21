@@ -13,3 +13,7 @@ spring:
       hibernate:
         format_sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
+
+# ? JWT ?? ??
+jwt:
+  secret: qwerty1234567890qwerty1234567890abcd  # 32? ?? ??
